@@ -1,4 +1,4 @@
-declare module 'ccxt' {
+declare module '@ive-a-dream/ccxt' {
 
     /**
      * Represents an associative array of a same type.
@@ -86,7 +86,7 @@ declare module 'ccxt' {
             amount: number | undefined,
             price: number | undefined
         };
-        limits: { 
+        limits: {
             amount?: MinMax,
             cost?: MinMax,
             leverage?: MinMax,
